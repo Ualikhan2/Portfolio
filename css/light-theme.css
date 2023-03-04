@@ -1,0 +1,18 @@
+a, a:active{
+	text-decoration: none;
+	color: black;
+}
+
+body {
+   background-color: #ebebeb ;
+}
+
+.light-theme {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.dark-theme {
+  background-color: #ffffff;
+  color: #ebebeb;
+}
