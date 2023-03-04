@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Подключаем CSS слайдера -->
+  <link rel="stylesheet" href="css/index.css" />
+  <link href="css/theme.css" rel="stylesheet" id="theme-link">
+  <!-- Подключаем CSS для иконок -->
+  <!-- Подключаем JS слайдера -->
+  <script defer src="jd/index.js"></script>
+  <script defer src="jd/slaider.js"></script>
+  <!-- Подключаем JS фон -->
+  <script defer src="jd/tem.js"></script>
+  <script defer src="jd/card.js"></script>
+  <script defer src="jd/modal.js"></script>
+  <script defer src="jd/temm.js"></script>
+
+  <title>Магазин бытовой техники Electro.</title>
+</head>
+
+<body>
+  <header>
+    <!-- ВЕРХНИЙ ЗАГОЛОВОК -->
+    <div id="top-header">
+      <div class="container">
+        <ul class="header-links pull-left">
+          <li><a href="#"><ion-icon name="call"></ion-icon> +747-192-44-69</a></li>
+          <li><a href="#"><ion-icon name="mail"></ion-icon> boux.musin@mail.ru</a></li>
+          <li><a href="#"><ion-icon name="map"></ion-icon> Жамбыл Жабаева 53</a></li>
+
+          <ul class="header-links pull-right">
+            <li><a href="Vxod.html"><ion-icon name="person-outline"></ion-icon>Мой аккаунт</a></li>
+            <li><a href="Vxod.html"></i><ion-icon name="person-add-outline"></ion-icon> Регистрация</a></li>
+          </ul>
+      </div>
+    </div>
+  </header>
+  <!-- /ВЕРХНИЙ ЗАГОЛОВОК -->
+
+  <div class="toggle" onclick="toggleTheme()">
+    <input type="checkbox" class="check">
+    <b class="b switch"></b>
+    <b class="b track"></b>
+  </div>
+
+
+  <!-- Меню сайта -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar__wrap">
+        <!-- логотип -->
+        <a href="#" class="logo" id="logo">Electro.</a>
+        <!--Кнопки-->
+        <ul class="menu" id="menu">
+
+          <li><a href="index.html">Главное</a></li>
+          <li><a href="Katalog.html">Каталог</a></li>
+        </ul>
+        <!--/Кнопки-->
+
+        <!--Поиск -->
+        <form>
+          <input type="text" placeholder="Искать здесь...">
+          <button type="submit" class="button"></button>
+        </form>
+        <!--/Поиск -->
+
+        <!--Кнопки1-->
+        <ul class="menu1" id="menu1">
+          <!-- Кнопка с иконкой -->
+          <li><a href="Izban.html" class="heart"><ion-icon name="heart" style="font-size: 25px;"></ion-icon></a></li>
+
+          <!-- Модальное окно -->
+          <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close"></span>
+              <h2>Избранное</h2>
+              <p>Выберите товар</p>
+            </div>
+          </div>
+          <!-- Кнопка с иконкой -->
+          <li><a href="Korzina.html" class="cart-plus"><ion-icon name="cart" style="font-size: 25px;"></ion-icon></a>
+          </li>
+        </ul>
+        <!--/Кнопки1-->
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- /Меню сайта -->
+  <div class="container2">
+    <img src="image/Category_desk_2.png" alt="Notebook" style="width:100%; height: 500px;">
+  </div>
+  <!-- /Каталог -->
+  <main>
+    <div class="card_desing_cnt">
+      <div class="crd_dsgn">
+        <a href="javascript:;">
+          <div class="crd_img">
+            <img src="image/image-removebg-preview (5).png" alt="" style="width: 230px;">
+          </div>
+          <div class="crd_hdng">
+            <h3 style="padding-left: 70px;">Мелкая техника </h3>
+          </div>
+        </a>
+      </div>
+      <div class="crd_dsgn">
+        <a href="javascript:;">
+          <div class="crd_img">
+            <img src="image/5s2cwwxvljcvqyip421v1vp04fxo4c13-removebg-preview.png" alt="" style="width: 230px;">
+          </div>
+          <div class="crd_hdng">
+            <h3 style="padding-left: 60px;">Техника для дома</h3>
+          </div>
+        </a>
+      </div>
+      <div class="crd_dsgn">
+        <a href="javascript:;">
+          <div class="crd_img">
+            <img
+              src="https://images.samsung.com/is/image/samsung/p6pim/ru/wd80a6s44ww-lp/gallery/ru-wd6100b-wd80a6s44ww-lp-531456400?$624_624_PNG$"
+              alt="" style="width: 230px;">
+          </div>
+          <div class="crd_hdng">
+            <h3 style="padding-left: 40px;">Встраиваемая техника</h3>
+          </div>
+        </a>
+      </div>
+      <div class="crd_dsgn">
+        <a href="javascript:;">
+          <div class="crd_img">
+            <img src="image/kholodilnik-lg-ref-gr-x24fmkbl-removebg-preview.png" alt="" style="width: 230px;">
+          </div>
+          <div class="crd_hdng">
+            <h3 style="padding-left: 70px;">Техника для кухни</h3>
+          </div>
+        </a>
+      </div>
+      <div class="crd_dsgn">
+        <a href="javascript:;">
+          <div class="crd_img">
+            <img src="image/RI-C288S_2-removebg-preview.png" alt="" style="width: 230px;">
+          </div>
+          <div class="crd_hdng">
+            <h3 style="padding-left: 70px;">Уход за одеждой</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <div class="slideshow-container">
+    <!-- Изображения во всю ширину с номером и текстом подписи -->
+    <div class="mySlides fade">
+      <img src="file:///C:/Users/Ualikhan/Downloads/Mask-group.webp" style=width:1482px height="600px">
+      <div class="text2">
+        <h2 style="width: 800px;">Суперскидки до 45%</h2>
+        <p style="width: 800px;font-size: 26px; line-height: 40px;">Выгодные предложения на технику</p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="image/Mask-group_min.jpg" style=width:1482px height="600px">
+      <div class="text2">
+        <h2 style="width: 800px;">Новинки<br> встраиваемой техники</h2>
+        <p style="width: 800px;font-size: 26px; line-height: 40px;">Встраиваемые стиральные и стирально-сушильные машины
+          для вашего максимального комфорта</p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="image/Mask-group-_1_.jpg" style=width:1482px height="600px">
+      <div class="text2">
+        <h2 style="width: 800px;">Профессиональная<br> готовка у вас дома</h2>
+        <p style="width: 800px;font-size: 26px; line-height: 40px;">с техникой от магазина Electro</p>
+      </div>
+    </div>
+
+
+    <!-- Следующая и предыдущая кнопки -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+
+  <!-- Точки/круги -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+  <div class="popul2">
+    <h1>Популярнный товар</h1>
+  </div><br>
+
+  <div class="wrapper">
+    <div class="card-wrap">
+      <div class="card">
+        <img src="image/mikrovolnovaya_pech_supra_20mw55_0-removebg-preview.png" alt="">
+        <div class="content">
+          <div class="row">
+            <div class="details">
+              <span>Микроволновая</span>
+              <p>Haier HMB-MM207WA</p>
+            </div>
+            <div class="price">45 000 ₸</div>
+          </div>
+          <div class="buttons">
+            <button class="cart-btn">В корзину</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/0-37000389_CCTUS_542XH-L-4241-M-removebg-preview.png" alt="">
+        <div class="content">
+          <div class="row">
+            <div class="details">
+              <span>Морозильный ларь</span>
+              <p>Haier HCE100R</p>
+            </div>
+            <div class="price">80 000 ₸</div>
+          </div>
+          <div class="buttons">
+            <button class="cart-btn">В корзину</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/263764_1-removebg-preview.png" alt="">
+        <div class="content">
+          <div class="row">
+            <div class="details">
+              <span>Стиральная машина </span>
+              <p>HW65-BP129301</p>
+            </div>
+            <div class="price">312 000 ₸</div>
+          </div>
+          <div class="buttons">
+            <button class="cart-btn">В корзину</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/36j37s7scp3e17ocho2b65rk50w1ntyu__1_-removebg-preview.png" alt="">
+        <div class="content">
+          <div class="row">
+            <div class="details">
+              <span>Робот-пылесос</span>
+              <p>Xiaomi Roidmi EVE Plus Белый</p>
+            </div>
+            <div class="price">200 937 ₸</div>
+          </div>
+          <div class="buttons">
+            <button class="cart-btn">В корзину</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/58b816522e11f160dc822024aa2675fc-removebg-preview.png" alt="">
+        <div class="content">
+          <div class="row">
+            <div class="details">
+              <span>Пылесос </span>
+              <p>Philips FC6404 01</p>
+            </div>
+            <div class="price">225 920 ₸</div>
+          </div>
+          <div class="buttons">
+            <button class="cart-btn">В корзину</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://www.maunfeld.by/upload/slam.image/iblock/140/kvqly4838qy3cyvy4wm1br5df9zzxnuy/700_700_1/Maunfeld-MFF182NFSBE_04_-90.png" alt="">
+        <div class="content">
+          <div class="row">
+            <div class="details">
+              <span>Холодильник</span>
+              <p>LG Side-by-Side</p>
+            </div>
+            <div class="price">721 990 ₸</div>
+          </div>
+          <div class="buttons">
+            <button class="cart-btn">В корзину</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/image-removebg-preview (6).png" alt="">
+        <div class="content">
+          <div class="row">
+            <div class="details">
+              <span>Стиральная машина</span>
+              <p> Haier HW80 BP14979</p>
+            </div>
+            <div class="price">264 229 ₸</div>
+          </div>
+          <div class="buttons">
+            <button class="cart-btn">В корзину</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/c377343c-9c91-11ed-0a80-099400093e07-removebg-preview.png" alt="">
+        <div class="content">
+          <div class="row">
+            <div class="details">
+              <span>Кофемашина</span>
+              <p>Dedica Black EC 685 BK</p>
+            </div>
+            <div class="price">136 990 ₸</div>
+          </div>
+          <div class="buttons">
+            <button class="cart-btn">В корзину</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br><br><br>
+
+  <div class="popul2">
+    <h1>Новинки</h1>
+  </div><br>
+
+  <div class="wrapper">
+    <div class="card-wrap">
+      <div class="card">
+        <img src="image/blender-bosch-MMB6382M-01-447x476-removebg-preview.png" alt="">
+        <div class="content">
+          <div class="row">
+            <div class="details">
+              <span>Блендер</span>
+              <p>VitaPower Bosch MMB6382M</p>
+            </div>
+            <div class="price">43 299 ₸</div>
+          </div>
+          <div class="buttons">
+              <button  class="cart-btn">В корзину</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://img.shop.scarlett.kz/images/products/1/1077/441459765/SC_AH986E15v1.png" alt="">
+        <div class="content">
+          <div class="row">
+            <div class="details">
+              <span>Увлажнитель воздуха </span>
+              <p>Scarlett SC-AH986E15 Scarlett</p>
+            </div>
+            <div class="price">80 000 ₸</div>
+          </div>
+          <div class="buttons">
+            <button class="cart-btn">В корзину</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/img_0_8_789_1-removebg-preview.png" alt="">
+        <div class="content">
+          <div class="row">
+            <div class="details">
+              <span>Стиральная машина </span>
+              <p>Haier F4M5VS6W</p>
+            </div>
+            <div class="price">415 540 ₸</div>
+          </div>
+          <div class="buttons">
+            <button class="cart-btn">В корзину</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="file:///C:/Users/Ualikhan/Desktop/HTML1/image/RI-C288S_2-removebg-preview.png" alt="">
+        <div class="content">
+          <div class="row">
+            <div class="details">
+              <span>Утюг</span>
+              <p>Polaris PIR 3033 SG AK 3m</p>
+            </div>
+            <div class="price">37 490 ₸</div>
+          </div>
+          <div class="buttons">
+            <button class="cart-btn">В корзину</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/cryuq2f4h8r3kyd6pgy0fe307asae9jr-removebg-preview.png" alt="">
+        <div class="content">
+          <div class="row">
+            <div class="details">
+              <span>Робот-пылесос</span>
+              <p>XIAOMI VIOMI ROBOT VACUUM CLEANER</p>
+            </div>
+            <div class="price"> 249 912 ₸</div>
+          </div>
+          <div class="buttons">
+            <button class="cart-btn">В корзину</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/KG49NXX306-removebg-preview.png" alt="">
+        <div class="content">
+          <div class="row">
+            <div class="details">
+              <span>Холодильник</span>
+              <p>Siemens KG49NXX306</p>
+            </div>
+            <div class="price">359 990 ₸</div>
+          </div>
+          <div class="buttons">
+            <button class="cart-btn">В корзину</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://media3.bosch-home.com/Product_Shots/1600x900/MCSA00501097_D5237_SMS53L08TR_114690_korr_def.png" alt="">
+        <div class="content">
+          <div class="row">
+            <div class="details">
+              <span>Посудомоечные машины</span>
+              <p>SMS53L08ME </p>
+            </div>
+            <div class="price">285 990 ₸</div>
+          </div>
+          <div class="buttons">
+            <button class="cart-btn">В корзину</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image/bxxwkej2ogken6ud7t1goywkee2olq6h-removebg-preview.png" alt="">
+        <div class="content">
+          <div class="row">
+            <div class="details">
+              <span>Вафельница  </span>
+              <p>BRAYER BR2301</p>
+            </div>
+            <div class="price">18 480 ₸</div>
+          </div>
+          <div class="buttons">
+            <button class="cart-btn">В корзину</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3>Petro<span>Electro.</span></h3>
+
+      <p class="footer-links">
+        <a href="index.html" class="link-1">Главное</a>
+
+        <a href="Katalog.html">Каталог</a>
+
+        <a href="Izban.html">Изобранное</a>
+
+        <a href="Korzina.html">Корзина</a>
+
+        <a href="onas.html">О нас</a>
+
+      </p>
+
+      <p class="footer-company-name">Магазин бытовой техники Electro. © 2023</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Жамбыл Жабаева 53</span>Петропавловск</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>8-747-192-44-69</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@company.com">boux.musin@mail.ru</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>О магазине</span>
+        Благодарим вас за проявленный интерес к нашему магазину. У меня есть бытовая техника.
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
