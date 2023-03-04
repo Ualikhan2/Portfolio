@@ -1,0 +1,737 @@
+* {
+  margin: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 100%;
+  z-index: 100px;
+  
+}
+
+/*Размещение*/
+.navbar {
+  position: absolute;
+  left: 0;
+  top: 35px;
+  width: 100%;
+  height: 70px;
+  background:var(--link-menu);
+}
+/* Подвал*/
+.navbar__wrap {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+/* Логотип*/
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 100px;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+/* Размещение кнопак*/
+.navbar__wrap .menu {
+  position: absolute;
+  top: 25px;
+  left: 500px;
+  display: flex;
+  color: var(--text);
+}
+
+/* Убирает ненужные элементы __*/
+.navbar__wrap .menu>li {
+  display: flex;
+  align-items: stretch;
+}
+
+.navbar__wrap .menu>li>a {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  color: var(--text);
+}
+
+.navbar__wrap .menu>li>a:hover {
+  color:  var(--text);
+}
+
+.menu1>li>a {
+  text-decoration: none;
+}
+
+.menu1 {
+  position: absolute;
+  top: 25px;
+  left: 1025px;
+  display: flex;
+  color: var(--text);
+}
+
+.menu1>li {
+  display: flex;
+  align-items: stretch;
+}
+
+.menu1>li>a {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  color:  var(--text);
+}
+
+.menu1>li>a:hover {
+  color:  var(--text);
+}
+
+
+/* Поиск*/
+* {
+  box-sizing: border-box;
+}
+
+/* Размещение */
+form {
+  position: relative;
+  top: 14px;
+  left: 150px;
+  width: 300px;
+  margin: 0 auto;
+}
+/**/
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 25px;
+  border: var(----border);
+  border-radius: 25px;
+  outline: none;
+  background: var(--point);
+  color: var(--text);
+}
+/*кнопака*/
+.button {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: var(--border);
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+}
+
+/*кнопака иконка*/
+.button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: var(--white);
+}
+
+/* Контейнер для слайд-шоу */
+.slideshow-container {
+  top: 580px;
+  max-width: 550px;
+  position: absolute;
+  margin: auto;
+}
+
+/* Кнопки "Далее" и "предыдущий" */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: var(--text);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Расположите кнопку "далее" справа */
+.next {
+  right: -932px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* При наведении курсора добавьте черный цвет фона с небольшим просвечиванием */
+.prev:hover,
+.next:hover {
+  background-color: var(--border);
+}
+
+/* Точки/маркеры/индикаторы */
+.dot {
+  height: 14px;
+  width: 14px;
+  margin: 0 2px;
+  background-color: var(--border);
+  display: inline-block;
+  transition: 0.6s ease;
+  position: relative;
+  top: 650px;
+  border: 1px solid var(--white);
+  border-radius: 100%;
+  margin: 0 11px;
+}
+
+
+#top-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: var(--bg-cl);
+}
+
+#top-header .header-links.pull-left {
+  float: none !important;
+  display: flex;
+}
+
+#top-header .header-links.pull-right {
+  float: none !important;
+  margin-top: auto;
+  display: flex;
+
+}
+
+.header-links .pull-right {
+  display: flex;
+  position: absolute;
+  left: 1025px;
+  
+}
+
+.header-links li {
+  padding: 0 10px;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.header-links li:last-child {
+  margin-right: 100px;
+}
+
+.header-links li a {
+  color: var(--text);
+}
+
+.header-links li a:hover {
+  color: var(--border);
+}
+
+.header-links li i {
+  color: var(--border);
+  margin-right: 5px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: var(--white);
+  background-color: var(--fon);
+}
+
+.container2 {
+  max-width: 100%;
+  /* Maximum width */
+  top: 70px;
+  z-index: 289;
+}
+
+.popul {
+  position: absolute;
+  top: 1200px;
+  left: 40%;
+  color: var(--text);
+}
+
+.popul2 {
+  position: relative;
+  top: 735px;
+  left: 110px;
+  color: var(--text);
+}
+
+.card_desing_cnt{
+  position: absolute;
+  top: 250px;
+  left: 70px;
+  justify-content: center;
+}
+
+.crd_dsgn {
+  display: inline;
+  width: 280px;
+  height: 200px;
+  float: left;
+  margin: 0 0 10px 0;
+  transition: all 0.5s ease-in-out 0s;
+  justify-content: center;
+  
+
+}
+.crd_img {
+  display: inline;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  margin: -10px 0 0 10px;
+  border-radius: 10px;
+  transition: 1s; /* Время эффекта */
+  display: block; 
+}
+.crd_img img {
+  height: 100%;
+  transform: scale(1.0);
+  border-radius: 10px;
+  background-color:var(--img-fo);
+  border:1px solid var(--img-fo);
+}
+.crd_hdng h3 {
+  position: absolute;
+  width: 800px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 15px;
+  color: var(--text);
+  margin-top: -41px;
+  
+}
+.cart-plus{
+  position: absolute;
+  left: 100px;
+}
+.heart{
+  position: absolute;
+  left: 20px;
+}
+.crd_dsgn:hover .crd_img { margin: 0;}
+.crd_dsgn:hover .crd_img img { transform: scale(1); }
+
+.top-block__column-second{
+  position: relative;
+  top:-250px;
+  left: 20px;
+}
+/* Текс на слайдере*/
+.text2 {
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 76px;
+  color: var(--white);
+  margin: 0;
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  width: 500px;
+}
+
+
+/* Подвал*/
+
+.footer-distributed{
+	background: var(--fontr);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+  position: relative;
+  top: 800px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Нижний колонтитул слева */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* Логотип 1 */
+
+.footer-distributed h3{
+	color:  var(--text);
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+/* Логотип 2*/
+.footer-distributed h3 span{
+	color:  var(--border);
+}
+
+/* Ссылки в нижнем колонтитуле */
+
+.footer-distributed .footer-links{
+	color:  var(--text);
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+/* Текс под меню*/
+.footer-distributed .footer-company-name{
+	color:  var(--text);
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Центр нижнего колонтитула */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+/*иконки*/
+.footer-distributed .footer-center i{
+	background-color:  var(--icon);
+	color: var(--text);
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: var(--text);
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+/*Размешение и размер*/
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+/*Почта*/
+.footer-distributed .footer-center p a{
+	color:  var(--email);
+	text-decoration: none;;
+}
+/*Левая менюшка*/
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: var(--text);
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Нижний колонтитул справа */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+/* Текс */
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #444a4f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  var(--text);
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+/* Размешение иконок */
+.footer-distributed .footer-icons{
+	margin-top: 45px;
+}
+/* Нижние иконки */
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  var(--bg-cl);
+	border-radius: 2px;
+/* Иконки */
+	font-size: 20px;
+	color: var(--text);
+	text-align: center;
+	line-height: 35px;
+
+}
+/*/Подвал*/
+
+/*/Карточки товара*/
+.wrapper {
+  position: relative;
+  max-width: 90%;
+  display: grid;
+  top: 750px;
+  left: 85px;
+  align-items: center;
+  justify-content: center;
+}
+/*/Карточки товара размешение*/
+.card-wrap {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+/*Все входящие в карточку товара*/
+.wrapper .card {
+  position: relative;
+  background: var(--text);
+  width: calc(26% - 18px);
+  height: 340px;
+  overflow: hidden;
+  box-shadow: 4px 4px 10px 0px var(--header);
+}
+.wrapper .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 4s ease;
+  background-color:var(--img-fo);
+  border:1px solid var(--img-fo);
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+/*Выдвижной элемент*/
+.wrapper .card .content {
+  position: absolute;
+  width: 100%;
+  bottom: -50%;
+  background: var(--icon);
+  padding: 10px 20px 22px 20px;
+  box-shadow: 0px -3px 10px 0px var(--header);
+  transition: all 0.3s ease;
+}
+.wrapper .card:hover .content {
+  bottom: 0;
+}
+/*/размешение текста*/
+.card .content .row,
+.content .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+/*/Главного текста*/
+.content .row .details span {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text);
+}
+/*/Нижнего текста*/
+.content .row .details p {
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 400;
+}
+/*/Цена*/
+.content .row .price {
+  color: var(--border);
+  font-size: 17px;
+  font-weight: 600;
+}
+/*/Кнопка*/
+.content .buttons {
+  margin-top: 20px;
+}
+.content .buttons button {
+  width: 100%;
+  padding: 9px 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 3px;
+  border: 2px solid var(--border);
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+/*/Цвет*/
+.buttons button:last-child {
+  color: var(--text);
+  margin-left: 10px;
+  background: var(--border);
+}
+/*Цвет при наведении*/
+button:last-child:hover {
+  background: var(--cloc);
+  border-color: var(--cloc);
+}
+
+
+
+.toggle {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 40px;
+  height: 20px;
+  border-radius: 100px;
+  background-color: #bebcbc;
+  margin: -20px -40px;
+  overflow: hidden;
+  box-shadow: inset 0 0 2px 1px rgba(0,0,0,.05);
+}
+
+.check {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 6;
+}
+
+  .check:checked ~ .track {
+    box-shadow: inset 0 0 0 20px #302f2f;
+  }
+
+  .check:checked ~ .switch {
+    right: 2px;
+    left: 22px;
+    transition: .35s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+    transition-property: left, right;
+    transition-delay: .05s, 0s;
+  }
+
+.switch {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  bottom: 2px;
+  right: 22px;
+  background-color: #fff;
+  border-radius: 36px;
+  z-index: 1;
+  transition: .35s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+  transition-property: left, right;
+  transition-delay: 0s, .05s;
+  box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.track {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: .35s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+  box-shadow: inset 0 0 0 2px rgba(0,0,0,.05);
+  border-radius: 40px;
+}
+
+/* формируем фон для модального окна */
+.modal {
+  display: none; /* скрыт по умолчанию */
+  /* темный фон при открытии модалки должен быть на всю страницу */
+  position: fixed; 
+  z-index: 1; /* поверх всех элементов */
+  left: 50px;
+  top: 0;
+  width: 100vw; /* полная ширина */
+  height: 100vh; /* полная высота */
+  background-color: rgba(0, 0, 0, 0); /* цвет фона - прозрачный черный */
+}
+
+/* само модальное окно с контентом */
+.modal-content {
+  background-color: var(--link-menu);
+  /* окно будет находится по центру по горизонтали и с отступом сверху в 100 px */
+  margin: 100px auto; 
+  padding: 50px;
+  width: 200px; 
+  font-size: 16px;
+  /* разнесем текст и кнопоку по краям окна */
+  padding-left: 25px;
+  line-height: 2;
+ }
+ .modal-content h2{
+  padding-left: 15px;
+  line-height: 2;
+ }
+ .modal-content p{
+  padding-left: 15px;
+  font-size: 14px;
+  line-height: 2;
+ }
+span {
+  cursor: pointer;
+}
+
+/* Скрытие модального окна */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 650px;
+  top: 30px;
+  width: 500px;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* Стилизация контента модального окна */
+.modal-content {
+  background-color: var(--link-menu);
+  margin: 15% auto;
+  padding: 20px;
+  border:  var(--text);
+  width: 80%;
+  max-width: 600px;
+}
+
+.close:hover,
+.close:focus {
+  color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
+}
+
